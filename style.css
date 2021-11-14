@@ -1,4 +1,6 @@
 body {
+    margin: auto;
+    text-align: center;
     background: papayawhip;
     font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 }
@@ -24,7 +26,6 @@ h1#home {
     padding: 14px 30px;
     text-decoration: none;
     font-size: 17px;
-    display: inline-block;
 }
 
 .topnav a:hover {
@@ -37,14 +38,14 @@ h1#home {
     color: black;
 }
 
-.topnav-centered a {
-    float: none;
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
+div#About p {
+    width: 75%;
+    margin: auto;
 }
 
-.topnav-right {
-    float: right;
+div#likes {
+    text-align: left;
+    display: inline-block;
+    padding: 14px;
 }
+
