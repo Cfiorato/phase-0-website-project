@@ -15,7 +15,7 @@ div#home {
 .topnav {
     position: relative;
     background-color: hsla(200, 35%, 35%, 0.6);
-    overflow: hidden;
+    overflow: hidden;   
 }
 
 .topnav a {
